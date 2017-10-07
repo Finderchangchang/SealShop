@@ -30,6 +30,11 @@ class SaoActivity : BaseActivity() {
          * 替换我们的扫描控件
          */
         supportFragmentManager.beginTransaction().replace(R.id.fl_my_container, captureFragment).commit()
+
+        startActivity(Intent(this@SaoActivity, SealCheckActivity::class.java)
+                .putExtra("id", "130606880077")
+                .putExtra("name", "备案入网证明查验"))
+        finish()
     }
 
     override fun initEvents() {

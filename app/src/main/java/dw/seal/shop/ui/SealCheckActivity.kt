@@ -30,6 +30,7 @@ class SealCheckActivity : BaseActivity(), ISealCheck {
     var seal_list: ArrayList<SignetModel> = ArrayList<SignetModel>()
     var now_id = ""//当前扫描的备案入网证明的id
     override fun initEvents() {
+        //www.hbyzcx.com/Q.aspx?Oid=130606880077
         adapter = object : CommonAdapter<SignetModel>(this, seal_list, R.layout.item_seal) {
             override fun convert(holder: CommonViewHolder, model: SignetModel, position: Int) {
                 holder.setText(R.id.title_tv, model.signetContent)
@@ -45,6 +46,10 @@ class SealCheckActivity : BaseActivity(), ISealCheck {
         }
         main_lv.emptyView = error
         main_lv.adapter = adapter
+        main_lv.setOnItemClickListener { parent, view, position, id ->
+            startActivity(Intent(this@SealCheckActivity, SealDetailActivity::class.java)
+                    .putExtra("model", seal_list[position]))
+        }
         main_srl.setOnRefreshListener {
             SealCheckListener(this, this).getSealsById(now_id)
         }

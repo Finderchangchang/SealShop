@@ -23,15 +23,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.LauncherActivity"></activity>
+        <activity android:name=".ui.LauncherActivity" />
         <activity android:name=".ui.TabActivity" />
-        <activity android:name=".ui.SealCheckActivity">
-
-        </activity>
-        <activity android:name=".ui.ReadCardActivity"></activity>
+        <activity android:name=".ui.SealCheckActivity"></activity>
+        <activity android:name=".ui.ReadCardActivity" />
         <activity android:name=".ui.ChoiceBlueToothActivity" />
         <activity android:name=".ui.SaoActivity" />
-        <activity android:name=".ui.NFCActivity"></activity>
+        <activity android:name=".ui.NFCActivity" />
         <activity android:name=".ui.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,6 +37,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.SealDetailActivity"></activity>
     </application>
 
 </manifest>
