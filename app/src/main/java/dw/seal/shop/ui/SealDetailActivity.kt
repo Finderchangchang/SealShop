@@ -1,7 +1,5 @@
 package dw.seal.shop.ui
 
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
 import android.text.TextUtils
 import dw.seal.shop.BaseActivity
 

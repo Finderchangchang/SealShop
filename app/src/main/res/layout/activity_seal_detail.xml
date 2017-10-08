@@ -22,48 +22,62 @@
 
         <TextView
             android:id="@+id/shop_name_tv"
+            style="@style/txt_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="单位名称：河北嘿嘿嘿公司" />
 
         <TextView
             android:id="@+id/shop_type_tv"
+            style="@style/txt_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="单位类型：企业单位" />
 
         <TextView
             android:id="@+id/seal_content_tv"
+            style="@style/txt_detail"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="印章内容：河北嘿嘿嘿公司" />
 
         <TextView
             android:id="@+id/seal_id_tv"
+            style="@style/txt_detail"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="印章编号：河北嘿嘿嘿公司" />
 
         <TextView
             android:id="@+id/seal_state_tv"
+
+            style="@style/txt_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="印章状态：河北嘿嘿嘿公司" />
 
         <TextView
             android:id="@+id/seal_type_tv"
+
+            style="@style/txt_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="印章类型：河北嘿嘿嘿公司" />
 
         <TextView
             android:id="@+id/beian_type_tv"
+
+            style="@style/txt_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="备案类型：河北嘿嘿嘿公司" />
 
         <TextView
             android:id="@+id/beian_time_tv"
+
+            style="@style/txt_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="备案时间：河北嘿嘿嘿公司" />

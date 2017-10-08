@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="txt_detail">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
 </resources>
